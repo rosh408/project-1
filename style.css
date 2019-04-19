@@ -91,6 +91,13 @@ a:hover {
     color: #b64036;
 }
 
+button {
+    background-color: #242424;
+    border-radius: 30px;
+    width: 100px;
+    color: white;
+}
+
 /* container 2 */
 
 .flowerbanner {
@@ -376,6 +383,8 @@ footer {
     color: gray;
 }
 
+
+
 @media screen and (min-width: 600px) {
 
     .flowerbanner {
@@ -450,5 +459,13 @@ footer {
         line-height: 1.8em;
         text-transform: uppercase;
 
+    }
+
+    button {
+        background-color: #242424;
+        padding: 10px;
+        color: white;
+        border-radius: 30px;
+        width: 100px;
     }
 }
