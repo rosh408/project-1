@@ -15,11 +15,12 @@ li {
 img {
     max-width: 100%;
 }
+
 html {
     scroll-behavior: smooth;
-  }
+}
 
-.container{
+.container {
     max-width: 1240px;
     margin: 0 auto;
 }
@@ -37,10 +38,13 @@ html {
     width: 50%;
 
 }
-.alohalogo img, .cart img{
+
+.alohalogo img,
+.cart img {
     max-height: 45px;
 
 }
+
 .navmenu {
     border-top-color: #d7d7d7;
     border-top: 1px solid;
@@ -61,12 +65,14 @@ html {
     width: 100%;
     padding: 0;
 }
-.navmenu a{
+
+.navmenu a {
     font-family: 'Raleway', sans-serif;
     margin: 3%;
     color: red;
     font-size: 1.0rem;
-    padding: 5px;}
+    padding: 5px;
+}
 
 .cart {
     order: 2;
@@ -75,13 +81,14 @@ html {
     text-align: right;
 }
 
-a{
+a {
     text-decoration: none;
 
 }
 
 
-a:hover {color: #b64036;
+a:hover {
+    color: #b64036;
 }
 
 /* container 2 */
@@ -148,14 +155,15 @@ a:hover {color: #b64036;
 
 /* container 4 */
 
-.categoryitems{
+.categoryitems {
     height: 50vw;
     display: flex;
     flex-wrap: wrap;
- 
+
 }
-.category{
-    display:flex;
+
+.category {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -163,7 +171,7 @@ a:hover {color: #b64036;
 
 .mens {
     order: 1;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/mens-category.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/mens-category.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -173,52 +181,57 @@ a:hover {color: #b64036;
 
 .trends {
     order: 2;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("images/trends-category.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/trends-category.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 50vw; 
+    width: 50vw;
     padding: 0 auto;
 
 }
+
 .glasses {
     order: 3;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("images/glasses-category.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/glasses-category.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 50%;
     padding: 0 auto;
 }
+
 .sale {
     order: 4;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("images/sale-category.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/sale-category.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 0 auto;
     width: 50%;
-    background-position: center;}
+    background-position: center;
+}
 
 .bags {
     order: 5;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/bags-category.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/bags-category.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 0 auto;
     width: 50%;
-    background-position: center;}
+    background-position: center;
+}
 
 .womens {
     order: 6;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("images/womens-category.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/womens-category.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 100% }
+    width: 100%
+}
 
 .categoryname {
     font-family: "Raleway", sans-serif;
-    color:white;
+    color: white;
     font-size: 1.7rem;
     text-transform: uppercase;
 
@@ -226,61 +239,66 @@ a:hover {color: #b64036;
 
 
 /* container 5 loved products */
-.loveditemstext{
+.loveditemstext {
     text-align: center;
-    font-family: "Playfair Display",serif;
+    font-family: "Playfair Display", serif;
     font-size: 1.7rem;
     color: #242424;
-   
+
 }
-.carousel-cell{
+
+.carousel-cell {
     width: 100%;
-    margin-right:5px;
+    margin-right: 5px;
     text-align: center;
 }
 
-.product{
-    text-align:center;
-    font-family: "Raleway",sans-serif;
+.product {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
     font-size: 0.5rem;
-    color:grey;
-    line-height: 1.7rem; 
+    color: grey;
+    line-height: 1.7rem;
 }
+
 .productcost {
     text-align: center;
     font-family: "Playfair Display", serif;
     color: grey;
     font-size: 0.5rem;
-    line-height:1.7rem;
+    line-height: 1.7rem;
     text-transform: uppercase;
 
 }
 
 h3 {
     text-align: center;
-    font-family: "Playfair Display",serif;
-    color: #b64036; 
-    line-height: 1.7rem; 
+    font-family: "Playfair Display", serif;
+    color: #b64036;
+    line-height: 1.7rem;
 }
+
 /* subscribe signup area */
 
-.signuparea{
+.signuparea {
     background-image: url(images/wave-bkgd.jpg);
     background-repeat: no-repeat;
-    background-position:center;
+    background-position: center;
     background-size: cover;
     color: white;
 }
 
-.signup{
+.signup {
     font-family: "Playfair Display", serif;
     font-weight: lighter;
     font-size: 1.7rem;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-.signuptext{    font-family: "Raleway", sans-serif;
+
+.signuptext {
+    font-family: "Raleway", sans-serif;
     display: flex;
     flex-wrap: wrap;
     font-size: 1.0rem;
@@ -289,21 +307,22 @@ h3 {
     line-height: 1.8rem;
 }
 
-.inputcontainer{
+.inputcontainer {
     width: 300px;
     margin: 0 auto;
     position: relative;
 }
+
 input[type=email] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     border: white;
-    background-color:white;
+    background-color: white;
     border-radius: 30px;
-  }
+}
 
-  input[type=submit] {
+input[type=submit] {
     width: 40%;
     padding: 9px;
     margin: 8px 1px;
@@ -315,7 +334,7 @@ input[type=email] {
     right: 1px;
 }
 
-.inputcontainer:focus{
+.inputcontainer:focus {
     border: none;
 }
 
@@ -326,6 +345,7 @@ input[type=email] {
     justify-content: center;
     padding: 10px;
 }
+
 .socialmedia li {
     padding: 5px;
 }
@@ -354,25 +374,25 @@ footer {
 
 .address {
     color: gray;
-} 
+}
 
 @media screen and (min-width: 600px) {
-    
-.flowerbanner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-        url(images/banner-girl.png), url(images/flower-bkgd.jpg);
-    background-repeat: no-repeat;
-    background-size: cover, contain, cover;
-    background-position: center, center, center;
-    position: relative;
-    margin: 0 auto;
-    width: 100%;
-    height: 30vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
-}
+    .flowerbanner {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+            url(images/banner-girl.png), url(images/flower-bkgd.jpg);
+        background-repeat: no-repeat;
+        background-size: cover, contain, cover;
+        background-position: center, center, center;
+        position: relative;
+        margin: 0 auto;
+        width: 100%;
+        height: 30vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
 
     .alohalogo {
         order: 1;
@@ -391,39 +411,44 @@ footer {
         order: 3;
         width: 25%;
     }
-    .medianame{
+
+    .medianame {
         display: block;
 
     }
+
     .footercontainer {
         display: flex;
         width: 100%;
 
     }
+
     .contactinfo {
         text-align: left;
     }
-    .carousel-cell{
+
+    .carousel-cell {
         width: 25%;
-        margin-right:5px;
+        margin-right: 5px;
         text-align: center;
     }
-    
-.product{
-    text-align:center;
-    font-family: "Raleway",sans-serif;
-    font-size: 0.5rem;
-    color:grey;
-    line-height:2.0rm; 
-    text-transform: uppercase;
-}
-.productcost {
-    text-align: center;
-    font-family: "Playfair Display", serif;
-    color: grey;
-    font-size: 0.5rem;
-    line-height:1.8em;
-    text-transform: uppercase;
 
-}
+    .product {
+        text-align: center;
+        font-family: "Raleway", sans-serif;
+        font-size: 0.5rem;
+        color: grey;
+        line-height: 2.0rm;
+        text-transform: uppercase;
+    }
+
+    .productcost {
+        text-align: center;
+        font-family: "Playfair Display", serif;
+        color: grey;
+        font-size: 0.5rem;
+        line-height: 1.8em;
+        text-transform: uppercase;
+
+    }
 }
