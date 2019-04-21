@@ -262,7 +262,6 @@ h2{
 }
 
 
-
 .carousel-cell {
     width: 100%;
     margin-right: 5px;
@@ -306,7 +305,8 @@ h3 {
     background-position: bottom;
     background-size: cover;
     color: white;
-    border: 10px;
+    height: 300px;
+    margin-bottom: 10px;
 }
 
 .signup {
@@ -471,7 +471,7 @@ footer {
         font-family: "Raleway", sans-serif;
         font-size: 0.5rem;
         color: #969696;
-        line-height: 2.0rm;
+        line-height: 2.0rem;
         text-transform: uppercase;
     }
 
@@ -513,8 +513,10 @@ footer {
         padding: 7px;
         color: white;
         border-radius: 30px;
-        width:100px;
         font-family: "Raleway", sans-serif;
     }
     
+
+
+
 }

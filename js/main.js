@@ -12,6 +12,10 @@ const flkty = new Flickity( '.main-carousel', {
 
 
 
+
+
+
+
   //write soem code here e.g. if statements and try alerting a message
   //how would you get the value of the email input?
   //!= '' this line just means that the value is not empty
