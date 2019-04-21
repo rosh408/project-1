@@ -10,7 +10,11 @@ const flkty = new Flickity( '.main-carousel', {
   });
 
 
-
+  const button = document.getElementById("subscribe");
+  button.addEventListener("submit", function(event) {
+alert( Thank you for subscribing! )
+    console.log("subscribe");
+  });
 
   //write soem code here e.g. if statements and try alerting a message
   //how would you get the value of the email input?

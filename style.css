@@ -61,7 +61,7 @@ html {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
     padding: 10px;
 }
@@ -246,6 +246,11 @@ button {
     align-self: center;
 }
 
+h2{
+    font-family: "PlayfairDisplay", serif;
+    font-weight: lighter;
+
+}
 
 /* container 5 main carousel  */
 .loveditems {
@@ -357,7 +362,7 @@ input[type=submit] {
 .footercontainer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     padding: 10px;
 }
 
