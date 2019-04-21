@@ -63,7 +63,7 @@ html {
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    padding: 0;
+    padding: 10px;
 }
 
 .navmenu a {
@@ -85,7 +85,6 @@ a {
     text-decoration: none;
 
 }
-
 
 a:hover {
     color: #b64036;
@@ -148,6 +147,7 @@ button {
 .style {
     font-family: "Playfair Display", serif;
     font-weight: lighter;
+    font-style: italic;
     font-size: 1.7rem;
     height: 30px;
 }
@@ -256,6 +256,8 @@ button {
 
 }
 
+
+
 .carousel-cell {
     width: 100%;
     margin-right: 5px;
@@ -266,18 +268,21 @@ button {
     text-align: center;
     font-family: "Raleway", sans-serif;
     font-size: 0.5rem;
-    color: grey;
+    columns: #969696;
     line-height: 1.7rem;
 }
 
 .productcost {
     text-align: center;
-    font-family: "Playfair Display", serif;
-    color: grey;
+    font-family: "Raleway", sans-serif;
+    color:#969696;
     font-size: 0.5rem;
     line-height: 1.7rem;
     text-transform: uppercase;
 
+}
+button{
+    display: none;
 }
 
 h3 {
@@ -287,14 +292,16 @@ h3 {
     line-height: 1.7rem;
 }
 
+
 /* subscribe signup area */
 
 .signuparea {
     background-image: url(images/wave-bkgd.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     background-size: cover;
     color: white;
+    border: 10px;
 }
 
 .signup {
@@ -310,7 +317,6 @@ h3 {
     font-family: "Raleway", sans-serif;
     display: flex;
     flex-wrap: wrap;
-    font-size: 1.0rem;
     font-weight: lighter;
     height: 50px;
     line-height: 1.8rem;
@@ -365,11 +371,14 @@ input[type=submit] {
     display: none;
 }
 
-.smicon {
+.smicon, ul{
     padding: 0%;
     margin: 0%;
     display: flex;
     width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-family: "Raleway",sans-serif;
 }
 
 footer {
@@ -384,7 +393,7 @@ footer {
 }
 
 .address {
-    color: gray;
+    color:#969696;
 }
 
 /*  media query for destkop and table -- breakpoints */
@@ -434,12 +443,14 @@ footer {
 
     .footercontainer {
         display: flex;
+        justify-content: space-between;
         width: 100%;
 
     }
 
     .contactinfo {
         text-align: left;
+        padding: 20px;
     }
 
     /* main carousel  */
@@ -454,7 +465,7 @@ footer {
         text-align: center;
         font-family: "Raleway", sans-serif;
         font-size: 0.5rem;
-        color: grey;
+        color: #969696;
         line-height: 2.0rm;
         text-transform: uppercase;
     }
@@ -462,21 +473,14 @@ footer {
     .productcost {
         text-align: center;
         font-family: "Playfair Display", serif;
-        color: grey;
+        color:#969696;
         font-size: 0.5rem;
         line-height: 1.8em;
         text-transform: uppercase;
 
     }
 
-    button {
-        background-color: #242424;
-        padding: 10px;
-        color: white;
-        border-radius: 30px;
-        width: 100px;
-        font-family: "Raleway", sans-serif;
-    }
+
 
     /* styles gallery- all categories */
 
@@ -494,12 +498,18 @@ footer {
     .picture:last-child {
         width: 50%;
     }
+    .smicon, ul{
+        font-family: "Raleway", sans-serif;}
 
-
-
-
-
-
-
-
+}    @media screen and (min-width: 1240px){
+    button {
+        display: inline;
+        background-color: #242424;
+        padding: 7px;
+        color: white;
+        border-radius: 30px;
+        width:100px;
+        font-family: "Raleway", sans-serif;
+    }
+    
 }
