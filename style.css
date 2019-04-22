@@ -24,6 +24,7 @@ html {
     max-width: 1240px;
     margin: 0 auto;
 }
+/* header/intro first section with main nav logo and cart */
 
 .main-nav {
     display: flex;
@@ -98,7 +99,7 @@ button {
     color: white;
 }
 
-/* container 2 */
+/* section  2 , banner and banner texts containg seasons*/
 
 .flowerbanner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
@@ -137,7 +138,7 @@ button {
 
 }
 
-/* container 3 */
+/* section 3 with style, company description and all images for categories uploaded */
 
 .companystyle {
     text-align: center;
@@ -161,7 +162,7 @@ button {
     line-height: 1.8rem;
 }
 
-/* container 4 */
+/* section 3 continues*/
 
 
 .stylegallery {
@@ -253,7 +254,7 @@ h2{
 
 }
 
-/* container 5 main carousel  */
+/*section 4 main carousel  */
 .loveditems {
     text-align: center;
     font-family: "Playfair Display", serif;
@@ -300,7 +301,7 @@ h3 {
 }
 
 
-/* subscribe signup area */
+/*section 4 user interactive area, enter email and subscribe*/
 
 .signuparea {
     background-image: url(images/wave-bkgd.jpg);
@@ -329,6 +330,7 @@ h3 {
     height: 50px;
     line-height: 1.8rem;
 }
+/* inputsection  */
 
 .inputcontainer {
     width: 300px;
@@ -359,7 +361,7 @@ input[type=submit] {
 
 
 
-/* sign up subscribe area */
+/* section 6 , footer area with contact info and social media  */
 .footercontainer {
     display: flex;
     flex-direction: column;
@@ -427,20 +429,7 @@ footer {
         order: 3;
         width: 25%;
     }
-    
 
-    .footercontainer {
-        width:100%;
-        display: flex;
-        flex-wrap:wrap;
-}
-    .medianame {
-        display:inline;
-    }
-    .contactinfo {
-        text-align: left;
-        padding: 20px;
-    }
 
     /* main carousel  */
 
@@ -486,6 +475,20 @@ footer {
     .picture:last-child {
         width: 50%;
     }
+        /* footer  */
+
+        .footercontainer {
+            width:100%;
+            display: flex;
+            flex-wrap:wrap;
+    }
+        .medianame {
+            display:inline;
+        }
+        .contactinfo {
+            text-align: left;
+            padding: 20px;
+        }
     .smicon, ul{
         font-family: "Raleway", sans-serif;}
 
