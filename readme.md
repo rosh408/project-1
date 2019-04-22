@@ -1,9 +1,9 @@
 # Aloha Project 1
-# Aloha Project 1
+
 
 Project 01- Aloha Apparel, responsive webdesign using mobile first concept. 
 
-HTML index is divded into 5 sections using comments.
+HTML index is divded into 6 different sections, use of comments through out. 
 
 ## section1
 Header/ Introuduction
@@ -74,7 +74,6 @@ Use of functions and if else was confusing because I didn't know when to use cam
 Subscribe button took the whole day because of one spelling error. 
 
 ## Goals
-Will continue progressing 
-continue working on Javascript and allow shopping cart to function using arrays
+Will continue progressing using Javascript and allow shopping cart to function using arrays
 
 

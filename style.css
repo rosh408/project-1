@@ -470,20 +470,26 @@ footer {
         height: 25vw;
         width: 25%;
     }
-
+    .socialmedia{
+        width: 50%;
+        align-items: right;
+        
+    }
+.medianame{
+    display: inline;
+}
     .picture:first-child,
     .picture:last-child {
         width: 50%;
     }
         /* footer  */
+    
 
         .footercontainer {
             width:100%;
             display: flex;
             flex-wrap:wrap;
-    }
-        .medianame {
-            display:inline;
+
         }
         .contactinfo {
             text-align: left;
