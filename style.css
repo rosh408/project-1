@@ -30,6 +30,7 @@ html {
     flex-wrap: wrap;
     justify-content: center;
     width: auto;
+    margin: 10px;
 
 }
 
@@ -61,7 +62,7 @@ html {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
     padding: 10px;
 }
@@ -268,20 +269,22 @@ h2{
     text-align: center;
 }
 
+
 .product {
     text-align: center;
     font-family: "Raleway", sans-serif;
     font-size: 0.5rem;
-    columns: #969696;
-    line-height: 1.7rem;
+    color: #969696;
+    line-height: 2.0rem;
+    text-transform: uppercase;
 }
 
 .productcost {
     text-align: center;
-    font-family: "Raleway", sans-serif;
+    font-family: "Playfair Display", serif;
     color:#969696;
     font-size: 0.5rem;
-    line-height: 1.7rem;
+    line-height: 1.8em;
     text-transform: uppercase;
 
 }
@@ -354,9 +357,7 @@ input[type=submit] {
     right: 1px;
 }
 
-.inputcontainer:focus {
-    border: none;
-}
+
 
 /* sign up subscribe area */
 .footercontainer {
@@ -368,23 +369,10 @@ input[type=submit] {
 
 /* social media  */
 
-.socialmedia li {
-    padding: 5px;
-}
-
 .medianame {
     display: none;
 }
 
-.smicon, ul{
-    padding: 0%;
-    margin: 0%;
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    font-family: "Raleway",sans-serif;
-}
 
 footer {
     background-color: #242424;
@@ -439,20 +427,16 @@ footer {
         order: 3;
         width: 25%;
     }
-
-    .medianame {
-        display: block;
-
-    }
-
+    
 
     .footercontainer {
+        width:100%;
         display: flex;
-        justify-content: space-between;
-        width: 100%;
-
+        flex-wrap:wrap;
+}
+    .medianame {
+        display:inline;
     }
-
     .contactinfo {
         text-align: left;
         padding: 20px;
@@ -484,7 +468,6 @@ footer {
         text-transform: uppercase;
 
     }
-
 
 
     /* styles gallery- all categories */

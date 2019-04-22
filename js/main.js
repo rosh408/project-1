@@ -2,18 +2,24 @@ document.addEventListener("DOMContentLoaded", function() {
 
 // all of your code goes inside here
 
-console.log('this is working');
-const flkty = new Flickity( '.main-carousel', {
+
+const flkty = new Flickity( '.main-carousel',{
     cellAlign: 'left',
     wrapAround: true,
     freeScroll: true
   });
 
-
-
-
-
-
+  const subscribeForm = document.getElementById("subscribeForm");
+  subscribeForm.addEventListener("submit", function(event){
+    const myemail = document.getElementById("myemail");
+    event.preventDefault();
+    if (myEmail.value != "") {
+               alert("Thank you for subscribing");
+           } else {
+               alert("please enter your email");
+           }
+       
+  });
 
 
   //write soem code here e.g. if statements and try alerting a message
@@ -22,5 +28,5 @@ const flkty = new Flickity( '.main-carousel', {
   // if(check the input value != '')
 //
 
-
 });
+
