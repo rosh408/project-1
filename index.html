@@ -18,7 +18,11 @@
     </head>
 
     <body>
-        <main>
+
+
+        <a class="screen-reader-text" href="#main">Skip to content</a>
+
+          
             <!--section 1 introduction -->
             <header class="main-nav container">
                 <div class="alohalogo"><img src="images/aloha-logo.svg" alt="aloha logo"></div>
@@ -42,6 +46,7 @@
                 </div>
             </section>
             <!-- section 3 company's products and information -->
+            <main id="main" tabindex="-1">
             <section class="companystyle">
                 <h1 class="style"><em>Hand-crafted </em><strong>Styles</strong></h1>
                 <p class="companydescription">Aloha Apparel.Co sells only the finest ready-to-travel clothing. Browse
@@ -155,16 +160,18 @@
                 </div>
                 <br>
                 <div class="socialmedia">
-                    <ul class="smicon">
+                    <!-- <ul class="smicon">
                         <li><i class="fab fa-facebook-f"></i> <span class="medianame">Facebook</span></li>
                         <li><i class="fab fa-twitter"></i><span class="medianame">Twitter</span></li>
                         <li><i class="fab fa-instagram"></i><span class="medianame">Instagram</span></i></li>
                         <li><i class="fab fa-pinterest"></i><span class="medianame">Pinterest</span></li>
                         <li><i class="fab fa-google-plus-g"></i><span class="medianame">Google+</span></li>
-                    </ul>
+                    </ul> -->
                 </div>
             </div>
         </footer>
+        <script src="tota11y.min.js"></script>
+
         <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
         <script src="./js/main.js"></script>
     </body>
